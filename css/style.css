@@ -4,10 +4,20 @@
 
 
 body {
-    background-color: #0f0e0e;
-    /* background: linear-gradient(0, #5951a3, #000000); */
-    color: rgb(243, 240, 240);
+    background-color: #EAEFE2;
+    color: rgb(5, 5, 5);
     font-family: 'EB Garamond', serif;
+}
+
+.sobre{
+    background-color: #000000;
+    color: #faf7f7;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+iage{
+    border-radius: 50%;
 }
 
 .fonte-titulo{
@@ -25,8 +35,6 @@ body {
 }
 .topo{
     margin-top: 12rem;
-    /* margin-bottom: 2rem; */
-    /* min-height: 80vh; */
 }
 
 .topo_prod{
@@ -70,23 +78,23 @@ body {
 
 .link{
     text-decoration: none;
-    color: white;
+    color: rgb(7, 7, 7);
 }
 
 .link-footer{
     text-decoration: none;
-    color: white;
+    color: rgb(3, 3, 3);
 }
 
 .link:hover{
     text-decoration: none;
-    color: #4b458b
+    color: #4b458b;
  }
 
 .link-footer:hover{
     text-decoration: none;
     font-size: 1.4rem;
-    color: rgb(228, 170, 170);
+    color: rgb(8, 8, 8);
 }
 
 .hr {
@@ -126,7 +134,13 @@ body {
 .link:hover{
     font-size: 1.1rem;
     text-decoration: none;
-    color: antiquewhite;
+    color: #4b458b;
+}
+
+.link-ontstao:hover{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #4b458b;
 }
 
 .esp-icons{
@@ -140,7 +154,7 @@ body {
 
 .tamanho_icon{
     font-size: 4rem;
-    color: white;
+    color: rgb(3, 3, 3);
 }
 .tam_teste{
     font-size: 1.5rem;
@@ -174,4 +188,14 @@ body {
 
 .btn_skill{
     min-width: 100%;
+}
+
+@media(max-width: 1000px){
+    .img_sobre{
+        display: none;
+    }
+}
+
+.img_sobre{
+    max-height: 50vh;
 }
